@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modra</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #e3c1d3;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #c89ca6;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .collection {
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .collection h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #c89ca6;
+        }
+
+        .collection p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #555;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 0 2rem;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: 70%;
+        }
+
+        .product h3 {
+            margin: 1rem 0 0.5rem;
+            color: #333;
+        }
+
+        .product p {
+            margin: 0.5rem 0;
+            color: #777;
+        }
+
+        .product button {
+            background-color: #c89ca6;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 1rem 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #a87c87;
+        }
+
+        footer {
+            background-color: #c89ca6;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Collections</h1>
+        <p>Explore the finest pieces from our boutique</p>
+    </header>
+
+    <nav>
+        <a href="homepage arij.html">Home</a>
+        <a href="collections.html">Collections</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="collection">
+        <h1>Winter Collection 2024</h1>
+        <p>Discover the vibrant colors and elegant designs perfect for the season.</p>
+        <div class="products">
+            <div class="product">
+                <img src="hooood.jpg" alt="Hoodies">
+                <h3>Hoodies</h3>
+                <p>Rs.4500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="bag.jpg" alt="Handbags">
+                <h3>Handbags</h3>
+                <p>Rs.4000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="accessories.jpg" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>Rs.1500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="shoes.jpg" alt="Footwear">
+                <h3>Footwear</h3>
+                <p>Rs.3000</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Modra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
